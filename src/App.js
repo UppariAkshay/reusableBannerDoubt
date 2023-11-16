@@ -23,14 +23,14 @@ const bannerCardsList = [
   },
 ]
 
-const App = () => {
-  ;<div>
+const App = () => (
+  <div>
     <ul>
       {bannerCardsList.map(card => (
         <Carditem value={card.id} cardDetails={card} />
       ))}
     </ul>
   </div>
-}
+)
 
 export default App

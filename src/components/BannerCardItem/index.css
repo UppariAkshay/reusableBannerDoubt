@@ -1,6 +1,9 @@
 .card-1 {
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
   background-size: cover;
+  list-style-type: none;
+  border-color: #cbced2;
+  border-width: 3px;
 }
 
 .card-2 {
@@ -19,3 +22,28 @@
 }
 
 /* Write your code here. */
+h1 {
+  font-family: 'Roboto';
+  color: #326a9d;
+}
+p {
+  color: #64748b;
+  font-family: 'Roboto';
+}
+.btn-style {
+  color: #326a9d;
+  background-color: #ffffff;
+  border-color: #326a9d;
+  border-radius: 10px;
+  height: 35px;
+  width: 90px;
+}
+.listitem-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #64748b;
+  border-radius: 5px;
+  padding: 55px;
+  margin-bottom: 15px;
+  list-style-type: none;
+}
